@@ -806,6 +806,12 @@ web日志 [ 访问, 错误日志 ]
 ```	
 CobaltStrike [二次开发]
   payload(beacon) 逆向/改进重写
+CobaltStrike插件推荐 
+  Erebus CobaltStrike后渗透测试插件
+  CrossC2 framework Linux上线插件
+  Ladon 大型内网渗透扫描器
+
+
 Metasploit [二次开发]
 ......
 ```
@@ -849,6 +855,8 @@ shellcode 内存加解密执行 ( 对于现在的某些杀软来讲,可能并没
 ```
 域前置[利用大厂cdn]
 DNS加密隧道
+购买匿名域名或者别人过期的白域名
+使用SSL加密替换CobaltStrike的证书端口
 第三方公共邮箱上线
 第三方网盘上线
 第三方社交网站上线
