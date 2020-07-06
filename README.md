@@ -428,6 +428,9 @@ chm
 木马链接
 OLE
 CVE-2017-11882 [ 利用漏洞触发 ]
+CVE-2017-8570
+CVE-2017-8759
+CVE-2018-0802
 ...
 ```
 
@@ -766,7 +769,20 @@ Bitsadmin.exe
 Regsvr32.exe
 Rundll32.exe
 Powershell.exe
+ftp.exe
+msiexec.exe
+mshta.exe
 ......
+```
+脚本
+```
+Visual Basic 脚本
+Python 脚本
+PHP 脚本
+```
+第三方
+```
+Notepad Dialog Box 
 ```
 
 ### 0x11 内网安全 [ 权限维持，防御重点 ] [ 注: 有些细节此处并未展开详细说明 ]
