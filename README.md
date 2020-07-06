@@ -824,7 +824,12 @@ CobaltStrike [二次开发]
 CobaltStrike插件推荐 
   Erebus CobaltStrike后渗透测试插件
   CrossC2 framework Linux上线插件
+  fakelogonscreen 锁屏钓鱼
   Ladon 大型内网渗透扫描器
+  SweetPotato_cs4.0 ms16-075
+CobaltStrike C2混淆
+
+  
 
 
 Metasploit [二次开发]
@@ -846,6 +851,7 @@ Metasploit [二次开发]
 混淆:
 手工混淆,有源码的情况下,尝试逐个替换可能是关键特征字符串的 命名空间名, 函数名, 变量名, 字符串 等等等....
 工具混淆,针对各种语言的专业混淆工具 [ 有商业版 ]
+python shellcode编译
 ...
 
 加壳:
@@ -856,10 +862,18 @@ Metasploit [二次开发]
 
 * 动态
 ```
-反射
-shellcode 内存加解密执行 ( 对于现在的某些杀软来讲,可能并没什么卵用,别人拦的基本都是你的最终调用 )
-白利用
+反射shellcode 内存加解密执行 ( 对于现在的某些杀软来讲,可能并没什么卵用,别人拦的基本都是你的最终调用 )
+白加黑利用
 ......
+* 利用数字签名证书
+```
+利用数字签名过杀毒软件检测
+```
+
+* VT虚拟化
+```
+把程序运行在虚拟层
+```
 
 注:
    理论上, 这些应该也没有什么非常通用的方法
