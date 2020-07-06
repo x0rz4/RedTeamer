@@ -222,6 +222,17 @@ CVE-2019-0193 [ Apache Solr 5.x - 8.2.0 ]
 + Apache Shiro反序列化
 + fastjson <= 1.2.47 反序列化利用
 + Fastjson  <= 1.2.68 远程代码执行
+
++ Apache Dubbo 反序列化
+```
+CVE-2019-17564
+CVE-2020-1948 
+
+```
++Apache Spark
+
++Apache Guacamole
+
 ####  针对各类Windows php集成环境  [ 由于此类环境拿到的Webshell权限相对较高,所以,通常也是红队人员的首选突破口 ]
 ```
 AppServ
@@ -319,7 +330,11 @@ CVE-2019-15107
 ```
 CVE-2016-10033
 ```
-
++F5 BIG-IP 远程命令执行
+```
+CVE-2020-5902
+```
++ 远OA任意文件写入漏洞
 + 泛微OA远程代码执行
 + 金蝶OA SQL注入
 + Coremail 敏感文件泄露
