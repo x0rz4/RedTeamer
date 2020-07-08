@@ -98,6 +98,13 @@ BypassWAF 文件上传 / 读取 / 下载
 关于到底哪些行业特别爱用哪些中间件,这些也应该都是有事先分析梳理汇总好的
 ```
 
+```
+数据来源
+https://github.com/zhzyker/exphub
+https://github.com/0xn0ne/weblogicScanner
+https://github.com/HatBoy/Struts2-Scan
+```
+
 + Struts2
 ```
 Struts2-005
@@ -121,6 +128,9 @@ Struts2-057
 
 + weblogic
 ```
+cve-2020-2883
+cve-2020-2555
+CVE-2020-2551
 CVE-2019-2725
 CVE-2019-2729
 CVE-2018-3191
@@ -211,7 +221,10 @@ CVE-2015-5254
 + Apache Solr
 ```
 CVE-2017-12629
+CVE-2019-0192
 CVE-2019-0193 [ Apache Solr 5.x - 8.2.0 ]
+CVE-2019-12409
+CVE-2019-17558
 ```
 
 + Apache Zookeeper
@@ -312,6 +325,7 @@ CVE-2019-19781
 CVE-2017-2824
 SQL注入 [ 2.0 老版本 ]
 控制台弱口令,敏感机器信息泄露
+zabbix默认的密码为Admin/zabbix，以及存在guest密码为空，利用替换的密码进入zabbix
 ```
 
 + Cacti
@@ -478,8 +492,9 @@ MS17-010[KB4013389]				    [重点]
 cve-2019-0708					    [重点]
 CVE-2019-0803					    [重点]
 CVE-2019-1322 & CVE-2019-1405			    [重点]
-cve-2019-12750 [ 赛门铁克(用的较多)本地提权 ]	    [重点]
+cve-2019-12750 [ 赛门铁克(用的较多)本地提权 ]	  [重点]
 cve-2020-0796 [win10_1903-9]
+CVE-2020-1301
 ```
 * linux 内核漏洞 本地提权 [ linux-exploit-suggester ]
 ```
