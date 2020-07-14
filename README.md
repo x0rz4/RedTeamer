@@ -468,8 +468,9 @@ Net ntlm hash [ 远程模板注入,pdf...钓hash,国内ISP过滤SMB流量不适�
 ```
 ``` 
 第三种浏览器漏洞
-IE
-adobe flash 
++IE expoit
+CVE-2019–1367
++Adobe Flash 
 ``` 
 ``` 
 第四种软件解析库编码器漏洞
